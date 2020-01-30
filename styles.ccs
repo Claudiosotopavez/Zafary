@@ -1,0 +1,105 @@
+* {
+  display block;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.caja-principal {
+    top:80px;
+    left:500px;
+    width:360px;
+    height:260px;
+    border-radius: 20px;
+    border: #C3F1FF 1px solid;
+    background : #F2FCFF;
+    text-align: center;
+}
+
+.caja-principal h1 {
+    font-size:30px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    color: #5AD2AE;
+}
+
+.formulario-login {
+  padding: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 13px;
+  justify-content: center;
+}
+
+.formulario-login input {
+  padding: 10px;
+  border: #C3F1FF 1px solid;
+  border-radius: 10px;
+  height: 34px;
+}
+
+.formulario-login button {
+  border-radius: 10px;
+  height: 34px;
+  border: 1px solid #469F85;
+  background: #5AD2AE;
+}
+
+.formulario-login button p{
+  margin-top: 8px;
+  color: #E9FEFA;
+}
+
+.formulario-login button:hover {
+  cursor: pointer;
+  background: grey;
+}
+
+.corazon{
+  color: #AFAFAF;
+}
+
+.mensaje-error{
+  font-size: 14px;
+  text-align: center;
+  color: red;
+  font-family: calibri;
+}
+
+.mensaje-in{
+  font-size: 14px;
+  text-align: center;
+  color: red;
+  font-family: calibri;
+}
+
+.formulario-login input::placeholder {
+  color: #5AD2AE;
+  opacity: 100;
+}
+
+.hide {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
